@@ -8,9 +8,9 @@ import { useEffect } from "react";
 
 function App() {
 
-  useEffect(()=>{
-    console.log('mount in App')
-  })
+  // useEffect(()=>{
+  //   console.log('mount in App')
+  // })
 
   return (
     <div>

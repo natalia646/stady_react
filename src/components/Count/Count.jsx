@@ -3,9 +3,9 @@ import React, {useEffect, useState } from "react";
 export default function Count() {
   const [count, setCount] = useState(0);
 
-  useEffect(()=>{
-    console.log('mount count')
-  })
+  // useEffect(()=>{
+  //   console.log('mount count')
+  // })
 
   const increment = () => {
     setCount(count + 1);
