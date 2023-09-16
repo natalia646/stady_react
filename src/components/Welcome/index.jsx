@@ -1,10 +1,14 @@
 
 
-function Welcome ({name}){
+function Welcome({ name }) {
+  
 
+  return (
+    <div>
 
-
-    return <h1>Hello {name}</h1>
+      <h1>Hello {name}</h1>
+    </div>
+  );
 }
 
 export default Welcome;

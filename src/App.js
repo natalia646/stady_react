@@ -5,6 +5,7 @@ import Time from "./components/Comment";
 import Name from "./components/State/Name";
 import Count from "./components/Count/Count";
 import { useEffect } from "react";
+import Timer from "./components/Timer/Timer";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div>
+      <Timer/>
       <Welcome name="Natalia" />
       <Time time = 'tomorrow'/>
       <Book name="JS" price="100 $"  date = '20.12'/>
